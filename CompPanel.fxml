@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CompPanelController" stylesheets="styles.css">
+   <top>
+      <Pane prefHeight="53.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="153.0" layoutY="17.0" text="Comparative Analysis tool of London Boroughs" style="-fx-translate-y: 20;" styleClass="baseCustomization">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="43.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ComboBox fx:id="selectBorough1" layoutX="14.0" layoutY="20.0" prefWidth="150.0" promptText="Borough 1" style="-fx-translate-y: -20;" styleClass="baseCustomization"/>
+            <ComboBox fx:id="selectBorough2" layoutX="225.0" layoutY="20.0" prefWidth="150.0" promptText="Borough 2" style="-fx-translate-y: -20;" styleClass="baseCustomization" />
+            <ComboBox fx:id="selectStat" layoutX="436.0" layoutY="20.0" prefWidth="150.0" promptText="Choose Statistic" style="-fx-translate-y: -20;" styleClass="baseCustomization"/>
+         </children>
+      </Pane>
+   </bottom>
+   <right>
+      <Pane prefHeight="304.0" prefWidth="20.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <StackPane prefHeight="304.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+      <!-- Line Chart -->
+         <LineChart fx:id="lineChart" visible="false" managed="false" title="StatName vs Time" BorderPane.alignment="CENTER" styleClass="baseCustomization" >
+            <xAxis>
+               <CategoryAxis fx:id="xAxis" label="x-axis" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+               <NumberAxis fx:id="yAxis" label="y-axis" minorTickCount="2" side="LEFT" />
+            </yAxis>
+         </LineChart>
+      <!-- Bar Chart -->
+         <BarChart fx:id="barChart" visible="false" managed="false" title="GMR Comparison" categoryGap="10" styleClass="baseCustomization">
+            <xAxis>
+               <CategoryAxis fx:id="barXAxis" label="Boroughs" styleClass="baseCustomization"/>
+            </xAxis>
+            <yAxis>
+               <NumberAxis fx:id="barYAxis" label="Value" styleClass="baseCustomization"/>
+            </yAxis>
+         </BarChart>
+      </StackPane>
+   </center>
+</BorderPane>

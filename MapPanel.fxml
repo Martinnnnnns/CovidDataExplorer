@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapController" stylesheets="styles.css">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="417.0" prefWidth="699.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="Haringey" layoutX="267.0" layoutY="70.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HRGY" styleClass="mapButton"  />
+            <Button fx:id="Camden" layoutX="239.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="CAMD" styleClass="mapButton" />
+            <Button fx:id="Harrow" layoutX="127.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HRRW" styleClass="mapButton"/>
+            <Button fx:id="Enfield" layoutX="295.0" layoutY="28.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="ENFI" styleClass="mapButton"/>
+            <Button fx:id="Barnet" layoutX="211.0" layoutY="70.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="BARN" styleClass="mapButton"/>
+            <Button fx:id="Kensington_And_Chelsea" layoutX="211.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="KENS" styleClass="mapButton"/>
+            <Button fx:id="Redbridge" layoutX="407.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="REDB" styleClass="mapButton"/>
+            <Button fx:id="Havering" layoutX="463.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HAVE" styleClass="mapButton"/>
+            <Button fx:id="Hackney" layoutX="351.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HACK" styleClass="mapButton"/>
+            <Button fx:id="Islington" layoutX="295.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="ISLI" styleClass="mapButton"/>
+            <Button fx:id="Waltham_Forest" layoutX="323.0" layoutY="70.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="WALT" styleClass="mapButton"/>
+            <Button fx:id="Brent" layoutX="183.0" layoutY="112.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="BREN" styleClass="mapButton"/>
+            <Button fx:id="Hillingdon" layoutX="99.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HILL" styleClass="mapButton"/>
+            <Button fx:id="City_Of_London" layoutX="295.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="CITY" styleClass="mapButton"/>
+            <Button fx:id="Bexley" layoutX="407.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="BEXL" styleClass="mapButton"/>
+            <Button fx:id="Richmond_Upon_Thames" layoutX="155.0" layoutY="238.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="RICH" styleClass="mapButton"/>
+            <Button fx:id="Merton" layoutX="211.0" layoutY="238.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="MERT" styleClass="mapButton"/>
+            <Button fx:id="Lambeth" layoutX="267.0" layoutY="238.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="LAMB" styleClass="mapButton"/>
+            <Button fx:id="Southwark" layoutX="323.0" layoutY="238.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="STHW" styleClass="mapButton"/>
+            <Button fx:id="Lewisham" layoutX="379.0" layoutY="238.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="LEWS" styleClass="mapButton"/>
+            <Button fx:id="Kingston_Upon_Thames" layoutX="183.0" layoutY="280.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="KING" styleClass="mapButton"/>
+            <Button fx:id="Sutton" layoutX="239.0" layoutY="280.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="SUTT" styleClass="mapButton"/>
+            <Button fx:id="Croydon" layoutX="295.0" layoutY="280.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="CROY" styleClass="mapButton"/>
+            <Button fx:id="Bromley" layoutX="351.0" layoutY="280.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="BROM" styleClass="mapButton"/>
+            <Button fx:id="Ealing" layoutX="155.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="EALI" styleClass="mapButton"/>
+            <Button fx:id="Hounslow" layoutX="127.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HOUN" styleClass="mapButton"/>
+            <Button fx:id="Barking_And_Dagenham" layoutX="435.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="BARK" styleClass="mapButton"/>
+            <Button fx:id="Westminster" layoutX="267.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="WSTM" styleClass="mapButton"/>
+            <Button fx:id="Greenwich" layoutX="351.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="GWCH" styleClass="mapButton"/>
+            <Button fx:id="Hammersmith_And_Fulham" layoutX="183.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="HAMM" styleClass="mapButton"/>
+            <Button fx:id="Wandsworth" layoutX="239.0" layoutY="196.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="WAND" styleClass="mapButton"/>
+            <Button fx:id="Newham" layoutX="379.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="NEWH" styleClass="mapButton"/>
+            <Button fx:id="Tower_Hamlets" layoutX="323.0" layoutY="154.0" minWidth="55.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="TOWH" styleClass="mapButton"/>
+      </children>
+    </AnchorPane>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" />
+  </children>
+</VBox>

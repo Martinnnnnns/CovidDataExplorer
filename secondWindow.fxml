@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410" prefWidth="970" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" stylesheets="styles.css">
+   <children>
+      <TableView fx:id="covidTableView" prefHeight="400.0" prefWidth="970">
+        <columns>
+            <TableColumn prefWidth="100.0" text="Date" fx:id="dateColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Retail/Recreation" fx:id="retailRecreationColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Grocery/Pharmacy" fx:id="groceryPharmacyColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Parks" fx:id="parksColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Transit" fx:id="transitColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Workplaces" fx:id="workplacesColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Residential" fx:id="residentialColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="New Cases" fx:id="newCasesColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Total Cases" fx:id="totalCasesColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="New Deaths" fx:id="newDeathsColumn" styleClass="columns"/>
+            <TableColumn prefWidth="80.0" text="Total Deaths" fx:id="totalDeathsColumn" styleClass="columns"/>
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

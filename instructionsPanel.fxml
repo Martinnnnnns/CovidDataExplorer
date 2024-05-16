@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutY="-3.0" prefHeight="407.0" prefWidth="600.0" style="-fx-focus-color: transparent;" styleClass="baseCustomization" text="This Covid Data Explorer has 4 panels, the welcome panel, the map panel, the statistics panel, and the comparison panel.&#10;When the application opens, it is set in the welcome panel. It gives you the most generic guidelines of how to travere through the application.&#10;NOTE: To be able to see other panels, you must select two valid dates, make sure they're withing the date range, and that the from date is not after the to date. After selecting two valid dates, the other panels will become available to you.&#10;&#10;The map panel shows an accurate representation of London's boroughs, with colors representing the death rates. The darker the color, the higher the death rates within that time range. &#10;You can click in any of the buttons, which will open a table filled with the records of that borough, including all GMR data, as well as new cases, total cases, new deaths, and total deaths.&#10;&#10;The statistics panel allows you to see four aspects of data from all boroughs. You can change the data displayed by clicking the next and previous button, allowing you to see the total deaths, the average of total cases, and the average of Retail and Recreation and Grocery and Pharmacy GMR data.&#10;&#10;The comparison panel allows you to pick two boroughs, and compare all data available withing the time range. Try different combinations to see how differently covid impacted the various boroughs!&#10;&#10;IMPORTANT NOTE: Whenever in one of the panels, you can select a new time range, and the map/statistics/comparison panel will automatically change.&#10;Hope you enjoy the application, and please give us a rating in the App Store!" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect></TextArea>
+   </children>
+</AnchorPane>

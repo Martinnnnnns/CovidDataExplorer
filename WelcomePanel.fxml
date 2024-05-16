@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" stylesheets="styles.css">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label alignment="CENTER" text="Welcome to Binary Baes' Covid Data Explorer!&#10;Right now you are on the welcome panel&#10;Press the Forward/Back buttons to switch panels&#10;Check out the Instructions button for more information&#10; about each panel&#10;Enjoy the application!&#10;" textAlignment="CENTER" BorderPane.alignment="CENTER" styleClass="welcomeLabel">
+               <BorderPane.margin>
+                  <Insets top="30.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <ImageView styleClass="welcomeImage" fitHeight="188.0" fitWidth="324.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="/images/shrek.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

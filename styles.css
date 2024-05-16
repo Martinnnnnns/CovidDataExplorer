@@ -1,0 +1,75 @@
+.mapButton {
+    -fx-background-color: #808080;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-effect: null;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.mapButton:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-transition: all 0.2s;
+}
+
+.welcomeLabel {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.welcomeImage{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: lightblue; 
+    -fx-padding: 10px;
+    -fx-opacity: 0.8; 
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.5, 0, 0); 
+    -fx-background-radius: 10px; 
+    -fx-background-insets: 5px; 
+    -fx-background-position: center center; 
+}
+
+.mainViewButton{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.baseCustomization{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.datePicker{
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.columns{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.numberInStats{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
